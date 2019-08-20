@@ -3,14 +3,15 @@
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
-const webeu3KarimStudents = 'prius'
+const webeu3TeamLead = 'Karim Bertacche'
 
 function webeu3() {
-  var webeu3KarimStudentCountry = 'daddy'
+  var webeu3TeamLeadCountry = 'Italy'
   return function () {
-    return ('\n'+ webeu3KarimStudents + webeu3KarimStudentCountry);
+    return (webeu3TeamLead + ' is from ' + webeu3TeamLeadCountry);
   }
 }
+console.log(webeu3()());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
